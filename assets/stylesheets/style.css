@@ -80,11 +80,32 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
   color: #c171bb;
 }
 
+.socials a {
+  color: #212529;
+  transition: 0.3s ease-in-out;
+}
+
+/* on hover for socials a */
+.socials a:hover {
+transform: scale(1.2);
+}
+.socials {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1vh;
+  font-size: larger;
+}
+
 
 /* media query to shrink card width on larger devices */
 @media (min-width: 768px) {
   .card {
     width: 50vw;
+  }
+  .socials {
+    width: 30%;
   }
 }
 
