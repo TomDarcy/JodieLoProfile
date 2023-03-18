@@ -87,3 +87,17 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
     width: 50vw;
   }
 }
+
+/* media query to shrink vertical spacing on phones */
+@media (max-width: 768px) {
+  .cards {
+    padding-top: 2vh;
+  }
+  .card
+  {
+    margin-bottom: 2vh;
+  }
+  .header-section {
+    padding-top: 4vh;
+  }
+}
