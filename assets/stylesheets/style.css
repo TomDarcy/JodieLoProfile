@@ -1,0 +1,89 @@
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  margin 0 auto;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* set so image isn't stretched */
+  object-fit: cover;
+}
+
+
+.header-main {
+  font-weight: 700;
+  color:;
+  margin: 0;
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-family: 'ibm-plex-sans', sans-serif;
+  font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4vh;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90vw;
+  height: 7vh;
+  border-radius: 30px;
+  text-decoration: none !important;
+  margin-bottom: 3.5vh;
+    background: #f2f3bf;
+    color: #c171bb;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    transition: .3s ease-in-out;
+
+}
+
+.card:hover {
+transform: scale(1.03);
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+ a {
+  text-decoration: none !important;
+  color: #c171bb;
+}
+
+
+/* media query to shrink card width on larger devices */
+@media (min-width: 768px) {
+  .card {
+    width: 50vw;
+  }
+}
