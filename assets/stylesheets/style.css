@@ -1,7 +1,9 @@
 body {
   background: rgb(22, 62, 104);
-  background: rgb(22,62,104);
-background: linear-gradient(180deg, rgba(22,62,104,1) 0%, rgba(133,50,53,1) 67%, rgba(141,59,84,1) 100%);}
+  background: rgb(22, 62, 104);
+  background: linear-gradient(180deg, rgba(22, 62, 104, 1) 0%, rgba(133, 50, 53, 1) 67%, rgba(141, 59, 84, 1) 100%);
+}
+
 body {
   min-height: 100vh;
   width: 100vw;
@@ -58,23 +60,23 @@ body {
   border-radius: 30px;
   text-decoration: none !important;
   margin-bottom: 3.5vh;
-    background: #d2d2d2;
-    color: rgba(133,50,53,1);
-    font-weight: 500;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
-    transition: .3s ease-in-out;
+  background: #d2d2d2;
+  color: rgba(133, 50, 53, 1);
+  font-weight: 500;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  transition: .3s ease-in-out;
 
 }
 
 .card:hover {
-transform: scale(1.03);
-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
 
- a {
+a {
   text-decoration: none !important;
   color: #c171bb;
 }
@@ -86,8 +88,9 @@ box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 /* on hover for socials a */
 .socials a:hover {
-transform: scale(1.2);
+  transform: scale(1.2);
 }
+
 .socials {
   display: flex;
   width: 50%;
@@ -103,6 +106,7 @@ transform: scale(1.2);
   .card {
     width: 50vw;
   }
+
   .socials {
     width: 30%;
   }
@@ -113,10 +117,11 @@ transform: scale(1.2);
   .cards {
     padding-top: 2vh;
   }
-  .card
-  {
+
+  .card {
     margin-bottom: 2vh;
   }
+
   .header-section {
     padding-top: 4vh;
   }
