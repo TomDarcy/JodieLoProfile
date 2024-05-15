@@ -1,7 +1,5 @@
 body {
-  background: rgb(22, 62, 104);
-  background: rgb(22, 62, 104);
-  background: linear-gradient(180deg, rgba(22, 62, 104, 1) 0%, rgba(133, 50, 53, 1) 67%, rgba(141, 59, 84, 1) 100%);
+  background: black;
 }
 
 body {
@@ -11,8 +9,8 @@ body {
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   /* set so image isn't stretched */
   object-fit: cover;
